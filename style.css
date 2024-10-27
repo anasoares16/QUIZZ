@@ -1,0 +1,40 @@
+body {
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Gothic', sans-serif;
+}
+
+#quiz-app {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #333;
+}
+
+button {
+    background-color: #555;
+    color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
